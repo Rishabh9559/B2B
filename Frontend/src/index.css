@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+    background-color: #d3d1d1;
+}
+
+.content-container {
+    background-color: #fff !important;
+}
+
+
+.navbar {
+    background-color: #fff !important;
+}

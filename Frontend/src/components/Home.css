@@ -1,0 +1,20 @@
+.home-container {
+  background-color: #eceaea !important;
+}
+
+/* Hide scrollbar but keep functionality */
+.overflow-x-auto {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.overflow-x-auto::-webkit-scrollbar {
+  display: none;
+}
+
+.overflow-x-auto>* {
+  scroll-snap-align: start;
+}
